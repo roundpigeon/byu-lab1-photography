@@ -1,0 +1,80 @@
+/* the logo font is Yesteryear and the body font is Alegreya Sans */
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+}
+
+.white-text {
+  color: white;
+}
+
+a:hover {
+  color: #d9d9d9;
+}
+
+.navbar-light {
+  /* background-color: #e0cec1 !important; */
+}
+
+.col-sm {
+  text-align: center;
+  margin: 1% 1% 1% 1%;
+  align-items: center;
+  width: 30%;
+}
+
+.col {
+  text-align: center;
+  margin: 1% 1% 1% 1%;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 15%;
+}
+
+.photo-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-over-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+#van-gogh-quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#van-gogh-quote-text {
+  font-size: 2em;
+  font-family: "Yesteryear", cursive;
+}
+
+#center-this-text {
+  text-align: center;
+}
+
+#little-bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pretend-h2 {
+  font-size: 2em;
+}
+
+.bio {
+  margin: auto auto auto auto;
+}
+
+footer {
+  justify-content: center;
+}
